@@ -1,0 +1,15 @@
+/* Hide element visually, keeping it focusable (with keyboard) and available for screen-readers */
+.Text {
+  /* Set color on root of component. It can be overridden after the @include */
+  color: #141414;
+  /* Make sure font-family goes across entire component */
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+}
+.Text .Text {
+  font-family: inherit;
+}
+
+/*# sourceMappingURL=index.css.map */

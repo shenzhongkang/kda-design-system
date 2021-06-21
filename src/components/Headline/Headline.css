@@ -1,0 +1,29 @@
+/* Hide element visually, keeping it focusable (with keyboard) and available for screen-readers */
+.Headline {
+  /* Set color on root of component. It can be overridden after the @include */
+  color: #141414;
+  /* Make sure font-family goes across entire component */
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+  font-family: 'Sofia Pro', SofiaPro, sans-serif;
+  line-height: 1.25;
+  font-size: 20px;
+  margin: 0 0 8px 0;
+}
+.Headline.Headline--xlarge {
+  font-size: 32px;
+  letter-spacing: -0.0075em;
+}
+.Headline.Headline--large {
+  font-size: 26px;
+  letter-spacing: -0.005em;
+}
+.Headline.Headline--medium {
+  font-size: 20px;
+  letter-spacing: -0.0025em;
+}
+.Headline.Headline--small {
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=Headline.css.map */
